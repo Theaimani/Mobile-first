@@ -27,7 +27,7 @@ html {
 /* -------- Mobile first style and layout ---------- */
 
 
-/*-----------------Header and navigation----------------------*/
+/*---------Header and navigation--------------*/
 
 .search_form{
     display: none;
@@ -51,15 +51,136 @@ html {
     object-fit: cover;
     width: 365px;
     height: 610px;
+}
 
+.main_cta_button1{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    border: 4px solid #705044;
+    padding: 10px 85px;
+    background-color: rgba(255,255,255, 0.01);
+    border-radius: 50px;
+    color: #705044;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.main_cta_button2{
+    position: absolute;
+    top: 78.5%;
+    left: 8%;
+    border: 4px solid #705044;
+    padding: 12px 15px;
+    background-color: #705044;
+    border-radius: 50px;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+
+.main_section1_text{
+   position: absolute;
+    top: 88%;
+    color: white;
+    text-align: center;
+    margin: 0px 22px;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.main_colorblock{
+    height: 25px;
+    width: 100%;
+    background-color: #705044;
 }
 
 
 /*-----------MAIN SECTION 2----------*/
 
-.bike_service_image{
-    max-width: 150px;
+.main_section2_container{
+
 }
+
+.main_section2_card1{
+   display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main_section2_card1_inner{
+   margin-left: 15px;
+}
+
+.main_service_paragraph{
+    /*padding: 15px 25px 15px 0px;*/
+    margin: 15px 10px 15px 0px;
+    font-size: 18px;
+}
+
+
+.main_s2_cta_button{
+    color: #DFD2C1;
+    background-color: #705044;
+    padding: 10px 26px;
+    border-radius: 20px;
+}
+
+
+
+.bike_service_image{
+    /*max-width: 150px;*/
+    height: 160px;
+    /*padding: 10px 15px 10px 0px;*/
+    margin-right: 15px;
+}
+
+/*---card 2--*/
+
+.main_section2_card2{
+   display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main_section2_card2_inner{
+    margin-right: 15px;
+}
+
+.main_section1_header2{
+    text-align: right;
+}
+
+.main_about_paragraph{
+    text-align: right;
+    font-size: 18px;
+    margin: 10px 0px 5px 10px;
+}
+
+.main_quote{
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.main_s2_cta_button2{
+    color: #DFD2C1;
+    background-color: #705044;
+    padding: 10px 26px;
+    border-radius: 20px;
+    margin-left: 41px
+}
+
+.bike_about_image{
+    /*max-width: 150px;*/
+    height: 160px;
+    /*padding: 10px 15px 10px 0px;*/
+    margin-left: 15px;
+}
+
+
 
 
 
