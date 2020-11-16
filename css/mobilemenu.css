@@ -1,0 +1,156 @@
+/* [ON MOBILE DEVICES] */
+
+.sosbike_logo {
+    background-color: black;
+    width: 60px;
+    float: left;
+    margin: 5px;
+    margin-right:
+
+}
+
+
+.navigation__container {
+    background-color: lightgray;
+    width: 70%;
+    float: right;
+
+}
+
+.menu_heading {
+    text-align: center;
+    padding: 25px;
+}
+
+.mobileiconlabel {
+    float: right;
+    display: inline-block;
+    color: black;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 10px 5px;
+}
+
+.menuitem {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-style: ;
+    text-decoration: none;
+    text-align: left;
+}
+
+.menu_navigation {
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.menu_sosbikelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.menu_paragraph {
+    text-align: center;
+}
+
+.cta_style {
+    background-color: orange;
+    color: #333333;
+    border-radius: 10px;
+
+}
+
+.menu_donate_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cta_style {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 50%;
+    margin-bottom: 150px;
+    margin-top: 10px;
+
+
+}
+
+.Donate_text {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+
+}
+
+.arrow {
+
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+
+/* Hide checkbox and menuitems until clicked */
+.menuitems__container,
+.mobileicon {
+    display: none;
+}
+
+
+
+
+/* Show menuitems when mobileicon-label is clicked */
+.navigation__container input:checked ~ .menuitems__container {
+    display: block;
+}
+
+
+
+
+/* Add rules [ON WIDE SCREENS] */
+
+@media only screen and (min-width: 900px) {
+
+    /* Hide Mobile icon and its label */
+    .mobileiconlabel,
+    .mobileicon {
+        display: none;
+    }
+
+
+    /* Make menuitems flex horisontally (on a row) */
+    .menuitems__container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .menuitem {
+        width: 130px;
+    }
