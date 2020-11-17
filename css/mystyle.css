@@ -21,10 +21,10 @@ html {
     font-family: PTSansNarrow-Regular, sans-serif;
     max-width: 1680px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 0px;
 }
 
-/* -------- Mobile first style and layout ---------- */
+/* -------- Mobile first style and layout ------- */
 
 
 /*---------Header and navigation--------------*/
@@ -39,19 +39,19 @@ html {
     font-size: 1.5rem;
     color: #333333;
     text-decoration: none;
-
 }
 
-/*-------------------------MAIN---------------------*/
+/*--------------------MAIN---------------------*/
 
 .main_section_bg_image{
    background-size: cover;
-    height: 610px;
+   background-position: bottom;
+    height: 568px;
 background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplash.jpg");
 }
 
 
-/*---------MAIN SECTION 1------*/
+/*---------------MAIN SECTION 1----------------*/
 
 .main_home_bike{
     object-fit: cover;
@@ -61,10 +61,10 @@ background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplas
 
 .main_cta_button1{
     position: absolute;
-    top: 70%;
+    top: 62.5%;
     left: 8%;
     border: 4px solid #705044;
-    padding: 10px 85px;
+    padding: 10px 65px;
     background-color: rgba(255,255,255, 0.01);
     border-radius: 50px;
     color: #705044;
@@ -74,7 +74,7 @@ background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplas
 
 .main_cta_button2{
     position: absolute;
-    top: 78.5%;
+    top: 72.5%;
     left: 8%;
     border: 4px solid #705044;
     padding: 12px 15px;
@@ -82,19 +82,18 @@ background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplas
     border-radius: 50px;
     color: white;
     font-size: 11px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
-
 
 .main_section1_text{
    position: absolute;
-    top: 88%;
+    top: 84%;
     color: white;
     text-align: center;
-    margin: 0px 22px;
+    margin: 0px 12px;
     line-height: 20px;
     font-size: 16px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
 }
 
 .main_colorblock{
@@ -138,7 +137,7 @@ background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplas
 
 .bike_service_image{
     /*max-width: 150px;*/
-    height: 160px;
+    height: 150px;
     /*padding: 10px 15px 10px 0px;*/
     margin-right: 15px;
 }
@@ -176,12 +175,12 @@ background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplas
     background-color: #705044;
     padding: 10px 26px;
     border-radius: 20px;
-    margin-left: 41px
+    margin-left: 6px
 }
 
 .bike_about_image{
     /*max-width: 150px;*/
-    height: 160px;
+    height: 150px;
     /*padding: 10px 15px 10px 0px;*/
     margin-left: 15px;
 }
