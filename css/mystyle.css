@@ -44,6 +44,12 @@ html {
 
 /*-------------------------MAIN---------------------*/
 
+.main_section_bg_image{
+   background-size: cover;
+    height: 610px;
+background-image: url("../images/homepage/main_bike_mobile.jpg");
+}
+
 
 /*---------MAIN SECTION 1------*/
 
