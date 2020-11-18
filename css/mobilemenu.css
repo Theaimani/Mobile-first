@@ -58,6 +58,11 @@
     padding-bottom: 25px;
 }
 
+.menu_sosbikelogo1{
+    display: none;
+}
+
+
 /*.menu_paragraph {
     width: 100%;
     text-align: center;
@@ -142,12 +147,77 @@
         display: none;
     }
 
+    .menu_paragraph{
+        display: none;
+    }
+
+    .sosbike_logo{
+        display: none;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .moab{
+        display: none;
+    }
+
+
+    .cta_style{
+        display: none;
+    }
+
+    .menu_sosbikelogo{
+        width: 8%;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: none;
+
+    }
+
+    .menu_sosbikelogo1{
+        width: 8%;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: block;
+    }
+
+    .menu_heading{
+        display: none;
+    }
+
+    .menu_navigation{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+
+    }
+
+    .navigation__container{
+        width: 100%;
+        flex-direction: row;
+        z-index: 9999;
+
+    }
+
+
+
+
+
 
     /* Make menuitems flex horisontally (on a row) */
     .menuitems__container {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        height: 70px;
+
+
 
     }
 
