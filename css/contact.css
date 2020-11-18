@@ -20,37 +20,6 @@ html {
 }
 
 
-/*html,body,h1,h2,h3,h4,h5,h6 {
-    font-family: PTSansNarrow-Regular, cursive, sans-serif;
-    color: #444444;
-}*/
-
-h1 {
-    font-family: Kelvinized, sans-serif;
-    color: #333333;
-    font-size: 22px;
-}
-
-h2 {
-    font-family: Noir_medium, sans-serif;
-    color: #333333;
-    font-size: 18px;
-}
-
-h3 {
-    font-family: Noir_medium, sans-serif;
-    color: #333333;
-    font-size: 16px;
-}
-
-html,
-body {
-    font-family: Noir_regular, sans-serif;
-    color: #333333;
-    font-size: 16px;
-}
-
-
 /* -------- Mobile first style and layout ---------- */
 
 .contact_header {
@@ -59,10 +28,6 @@ body {
 }
 
 /* -------- Header and navigation --------- */
-
-body {
-    font-family: Noir_regular, sans-serif;
-}
 
 * {
     box-sizing: border-box;
