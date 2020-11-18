@@ -1,0 +1,594 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.page__body {
+    font-family: Verdana, Geneva, sans-serif;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+/*---------Gallery Section---------------------*/
+
+
+
+.gallery_section {
+    display: inline-block;
+}
+
+
+
+
+.why_vintage_block {
+    margin: 10%;
+
+
+}
+
+.vintage_heading {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.vintage_paragraph {
+    text-align: center;
+
+}
+
+
+
+.category_block {
+    background-color: lightgrey;
+    width: 100%;
+    margin-bottom: 5%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+.category_heading1 {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.category_heading2 {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 20px;
+
+}
+
+.category_heading3 {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.category_heading4 {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+
+
+.bicycle_block {
+    margin: 5%;
+    margin-bottom: 10%
+}
+
+.gallery_image {
+    max-width: 100%;
+
+}
+
+.bike_description_block{
+    margin: 5%
+}
+
+.bike_description_heading1 {
+    display: inline-block;
+    margin-right: 13%;
+    font-size: 15px;
+
+
+}
+
+.bike_description_heading2 {
+    display: inline-block;
+    margin-right: 17%;
+    font-size: 15px;
+
+}
+
+.bike_description_heading3 {
+    display: inline-block;
+    margin-right: 8%;
+    font-size: 15px;
+
+}
+
+.bike_description_heading4 {
+    display: inline-block;
+    margin-right: 23%;
+    font-size: 15px;
+
+}
+
+
+
+.bike_price{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.bike_description {}
+
+
+
+/*----------------- arrow --------------*/
+
+.arrow {
+
+    border: solid black;
+    border-width: 0 0.5px 0.5px 0;
+    display: inline-block;
+    padding: 6px;
+
+}
+
+.right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+/* -------- Footer section ---------- */
+
+.page_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    align-items: center;
+    text-align: center;
+    background-color: #3F5235;
+    color: white;
+    padding: 40px 0px;
+    ;
+}
+
+
+.page_footer_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_flex_inner_card {
+    padding: 15px 0px;
+}
+
+.some_image {
+    margin: 15px 5px 0px 5px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.up_arrow_icon {
+    width: 10px;
+}
+
+.footer_logo {
+    width: 65%;
+}
+
+.back_to_the_top {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+
+/* ---------------------- Media Queries -------------------------- */
+
+
+@media only screen and (min-width: 600px) {
+
+
+    .gallery_section {
+    display: inline-block;
+}
+
+
+
+
+.why_vintage_block {
+    margin: 2%;
+
+
+}
+
+.vintage_heading {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px
+
+}
+
+.vintage_paragraph {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+.category_block {
+    background-color: lightgrey;
+    width: 100%;
+    margin-bottom: 2%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+.category_heading1 {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.category_heading2 {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 30px;
+
+}
+
+.category_heading3 {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.category_heading4 {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+
+
+.bicycle_block {
+    margin: 2%;
+    margin-bottom: 5%
+}
+
+.gallery_image {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+
+}
+
+.bike_description_block{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bike_description_heading1 {
+    display: inline-block;
+    margin-right: 37%;
+    font-size: 25px;
+
+}
+
+.bike_description_heading2 {
+    display: inline-block;
+    margin-right: 39%;
+    font-size: 25px;
+
+}
+
+.bike_description_heading3 {
+    display: inline-block;
+    margin-right:33%;
+    font-size: 25px;
+
+}
+
+.bike_description_heading4 {
+    display: inline-block;
+    margin-right: 44%;
+    font-size: 25px;
+
+}
+
+
+
+.bike_price{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.bike_description {
+    font-size: 25px;
+    }
+
+
+
+
+
+.arrow {
+
+    border: solid black;
+    border-width: 0 0.5px 0.5px 0;
+    display: inline-block;
+    padding: 6px;
+
+}
+
+.right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+    .page_footer {
+        height: 25rem;
+        text-align: left;
+    }
+
+    .page_footer_card {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .footer_flex_inner_card {
+        padding: 15px 0px 15px 120px;
+    }
+
+    .some_image {
+        margin: 15px 5px 0px 5px;
+    }
+
+    .up_arrow_icon {
+        width: 10px;
+    }
+
+    .footer_logo {
+        width: 65%;
+    }
+
+    .back_to_the_top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+@media only screen and (min-width: 900px) {
+
+    .gallery_section {
+    display: inline-block;
+}
+
+
+
+
+.why_vintage_block {
+    margin: 2%;
+
+
+}
+
+.vintage_heading {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+
+}
+
+.vintage_paragraph {
+    text-align: center;
+    font-size: 30px
+
+}
+
+
+
+.category_block {
+    background-color: lightgrey;
+    width: 100%;
+    margin-bottom: 2%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+.category_heading1 {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 15px;
+    font-size: 40px;
+}
+
+.category_heading2 {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 40px;
+
+}
+
+.category_heading3 {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 40px;
+}
+
+.category_heading4 {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 40px;
+}
+
+
+
+.bicycle_block {
+    margin: 2%;
+    margin-bottom: 5%
+}
+
+.gallery_image {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+
+}
+
+.bike_description_block{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bike_description_heading1 {
+    display: inline-block;
+    margin-right: 34%;
+    font-size: 35px;
+
+}
+
+.bike_description_heading2 {
+    display: inline-block;
+    margin-right: 37%;
+    font-size: 35px;
+
+}
+
+.bike_description_heading3 {
+    display: inline-block;
+    margin-right: 30%;
+    font-size: 35px;
+
+}
+
+.bike_description_heading4 {
+    display: inline-block;
+    margin-right: 42%;
+    font-size: 35px;
+
+}
+
+
+
+.bike_price{
+    display: inline-block;
+    font-size: 35px;
+}
+
+.bike_description {
+    font-size: 35px;
+    }
+
+
+
+
+
+.arrow {
+    display: none;
+    border: solid black;
+    border-width: 0 0.5px 0.5px 0;
+    display: inline-block;
+    padding: 6px;
+
+}
+
+.right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+    .page_body {
+        width: 900px;
+        height: 29rem;
+    }
+
+    .page_footer {
+        height: 28rem;
+                padding: 60px;
+    }
+
+    .page_footer_card {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .footer_flex_inner_card {
+        padding: 15px 60px 15px 160px;
+    }
+
+    .some_image {
+        margin: 15px 5px 0px 5px;
+    }
+
+    .up_arrow_icon {
+        width: 10px;
+    }
+
+    .footer_logo {
+        width: 65%;
+    }
+
+    .back_to_the_top {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
