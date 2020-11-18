@@ -148,7 +148,7 @@ html {
 
 /*----------------- arrow --------------*/
 
-.arrow {
+/*.arrow {
 
     border: solid black;
     border-width: 0 0.5px 0.5px 0;
@@ -160,7 +160,7 @@ html {
 .right {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-}
+}*/
 
 
 /* -------- Footer section ---------- */

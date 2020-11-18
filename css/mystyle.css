@@ -71,11 +71,6 @@ body {
 /* -------- Mobile first style and layout ------- */
 
 
-.moab { /* added by Morten, attached to menu arrows */
-    float: right;
-}
-
-
 /*---------Header and navigation--------------*/
 
 .search_form {
@@ -89,6 +84,10 @@ body {
     color: #333333;
     text-decoration: none;
 }*/
+
+.moab { /* added by Morten, attached to menu arrows */
+    float: right;
+}
 
 
 /*--------------------MAIN---------------------*/
@@ -562,6 +561,7 @@ a:hover {
 
     @media only screen and (min-width: 900px) {
 
+
         /* -------- Page body container ---------- */
 
         .page_body {
@@ -569,6 +569,9 @@ a:hover {
             height: 29rem;
         }
 
+        .moab { /* added by Morten, attached to menu arrows */
+    display: none;
+}
 
 
         /* -------- Main content ---------- */
