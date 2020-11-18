@@ -3,15 +3,21 @@
 .sosbike_logo {
     width: 80px;
     float: left;
-    margin: 10px;
-    margin-right:
-
+    margin: 5px;
 }
 
 
-.navigation__container {
-    width: 68%;
+/* .navigation__container {
+    width: 70%;
     float: right;
+} */
+
+.navigation__container {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 300px;
+    z-index: 9999;
 }
 
 .menu_heading {
@@ -22,19 +28,18 @@
 .mobileiconlabel {
     float: right;
     display: inline-block;
-    color: black;
-    font-style: normal;
-    font-size: 1.8rem;
-    padding: 10px;
     color: white;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 5px 0px 10px 0px;
+
 }
 
 .menuitem {
     display: block;
-    width: 100%;
+    width: 250px;
     padding: 10px;
     color: black;
-    font-style: ;
     text-decoration: none;
     text-align: left;
 }
@@ -54,15 +59,15 @@
 }
 
 .menu_paragraph {
+    width: 100%;
     text-align: center;
 }
 
-.cta_style {
+/*.cta_style {
     background-color: orange;
     color: #333333;
     border-radius: 10px;
-
-}
+}*/
 
 .menu_donate_button {
     display: block;
@@ -88,6 +93,7 @@
 }
 
 .Donate_text {
+    width: 100%;
     font-weight: bold;
     color: white;
     text-align: center;

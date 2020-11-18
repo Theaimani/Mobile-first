@@ -1,0 +1,48 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------- Mobile first style and layout ---------- */
+
+.services_heading {
+    text-align: center;
+    font-family: Kelvinized;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+.services_image {
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+}
+
+.about_text {
+    margin-bottom: 30px;
+}
+
+.contact_button {
+    border: 4px solid #705044;
+    margin-top: 10px;
+    padding: 12px 15px;
+    background-color: #705044;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* ---------------------- Media Queries -------------------------- */
+
+
+@media only screen and (min-width: 600px) {
+
+
+
+    @media only screen and (min-width: 900px) {
