@@ -41,6 +41,7 @@ h1 {
     font-family: Typographica, sans-serif;
     color: #333333;
     font-size: 24x;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -65,6 +66,7 @@ body {
 .page_body {
     max-width: 1680px;
     margin: 0 auto;
+
 }
 
 
@@ -73,17 +75,6 @@ body {
 
 /*---------Header and navigation--------------*/
 
-.search_form {
-    display: none;
-}
-
-/*.logo_style {
-
-    font-family: 'Asset', cursive;
-    font-size: 1.5rem;
-    color: #333333;
-    text-decoration: none;
-}*/
 
 .moab { /* added by Morten, attached to menu arrows */
     float: right;

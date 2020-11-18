@@ -8,44 +8,21 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 100%;
-}
-
-.page__body {
-    font-family: Verdana, Geneva, sans-serif;
-    max-width: 1680px;
-    margin: 0 auto;
-    padding: 5px;
-}
-
 
 /*---------Gallery Section---------------------*/
 
-
-
-.gallery_section {
-    display: inline-block;
+.gallery_block {
+    padding: 30px 20px 0px 20px;;
 }
 
-
-
-
-.why_vintage_block {
-    margin: 10%;
-
-
-}
-
-.vintage_heading {
+.gallery_heading {
     text-align: center;
-    padding-bottom: 10px;
-
+    padding-bottom: 5px;
 }
 
-.vintage_paragraph {
+.gallery_paragraph {
     text-align: center;
-
+    padding-bottom: 20px;
 }
 
 
@@ -56,38 +33,30 @@ html {
     margin-bottom: 5%;
     float: left;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 
 }
-
-
-
 
 .category_heading1 {
     display: inline-block;
     padding-right: 15px;
     padding-left: 15px;
-    font-size: 20px;
 }
 
 .category_heading2 {
     display: inline-block;
     padding-right: 15px;
-    font-size: 20px;
-
 }
 
 .category_heading3 {
     display: inline-block;
     padding-right: 15px;
-    font-size: 20px;
 }
 
 .category_heading4 {
     display: inline-block;
     padding-right: 15px;
-    font-size: 20px;
 }
 
 
@@ -99,7 +68,6 @@ html {
 
 .gallery_image {
     max-width: 100%;
-
 }
 
 .bike_description_block{
@@ -109,58 +77,30 @@ html {
 .bike_description_heading1 {
     display: inline-block;
     margin-right: 13%;
-    font-size: 15px;
-
-
 }
 
 .bike_description_heading2 {
     display: inline-block;
     margin-right: 17%;
-    font-size: 15px;
-
 }
 
 .bike_description_heading3 {
     display: inline-block;
     margin-right: 8%;
-    font-size: 15px;
-
 }
 
 .bike_description_heading4 {
     display: inline-block;
     margin-right: 23%;
-    font-size: 15px;
-
 }
 
 
 
 .bike_price{
     display: inline-block;
-    font-size: 15px;
 }
 
 .bike_description {}
-
-
-
-/*----------------- arrow --------------*/
-
-/*.arrow {
-
-    border: solid black;
-    border-width: 0 0.5px 0.5px 0;
-    display: inline-block;
-    padding: 6px;
-
-}
-
-.right {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}*/
 
 
 /* -------- Footer section ---------- */
@@ -237,14 +177,10 @@ html {
 .vintage_heading {
     text-align: center;
     padding-bottom: 10px;
-    font-size: 40px
-
 }
 
 .vintage_paragraph {
     text-align: center;
-    font-size: 30px;
-
 }
 
 
@@ -267,26 +203,21 @@ html {
     display: inline-block;
     padding-right: 30px;
     padding-left: 15px;
-    font-size: 30px;
 }
 
 .category_heading2 {
     display: inline-block;
     padding-right: 30px;
-    font-size: 30px;
-
 }
 
 .category_heading3 {
     display: inline-block;
     padding-right: 30px;
-    font-size: 30px;
 }
 
 .category_heading4 {
     display: inline-block;
     padding-right: 30px;
-    font-size: 30px;
 }
 
 
@@ -314,59 +245,32 @@ html {
 .bike_description_heading1 {
     display: inline-block;
     margin-right: 37%;
-    font-size: 25px;
-
 }
 
 .bike_description_heading2 {
     display: inline-block;
     margin-right: 39%;
-    font-size: 25px;
-
 }
 
 .bike_description_heading3 {
     display: inline-block;
     margin-right:33%;
-    font-size: 25px;
-
 }
 
 .bike_description_heading4 {
     display: inline-block;
     margin-right: 44%;
-    font-size: 25px;
-
 }
 
 
 
 .bike_price{
     display: inline-block;
-    font-size: 25px;
 }
 
 .bike_description {
-    font-size: 25px;
     }
 
-
-
-
-
-.arrow {
-
-    border: solid black;
-    border-width: 0 0.5px 0.5px 0;
-    display: inline-block;
-    padding: 6px;
-
-}
-
-.right {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
 
     .page_footer {
         height: 25rem;
@@ -421,13 +325,11 @@ html {
 .vintage_heading {
     text-align: center;
     padding-bottom: 10px;
-    font-size: 40px;
 
 }
 
 .vintage_paragraph {
     text-align: center;
-    font-size: 30px
 
 }
 
@@ -451,26 +353,22 @@ html {
     display: inline-block;
     padding-right: 50px;
     padding-left: 15px;
-    font-size: 40px;
 }
 
 .category_heading2 {
     display: inline-block;
     padding-right: 50px;
-    font-size: 40px;
 
 }
 
 .category_heading3 {
     display: inline-block;
     padding-right: 50px;
-    font-size: 40px;
 }
 
 .category_heading4 {
     display: inline-block;
     padding-right: 50px;
-    font-size: 40px;
 }
 
 
@@ -498,28 +396,24 @@ html {
 .bike_description_heading1 {
     display: inline-block;
     margin-right: 34%;
-    font-size: 35px;
 
 }
 
 .bike_description_heading2 {
     display: inline-block;
     margin-right: 37%;
-    font-size: 35px;
 
 }
 
 .bike_description_heading3 {
     display: inline-block;
     margin-right: 30%;
-    font-size: 35px;
 
 }
 
 .bike_description_heading4 {
     display: inline-block;
     margin-right: 42%;
-    font-size: 35px;
 
 }
 
@@ -527,30 +421,11 @@ html {
 
 .bike_price{
     display: inline-block;
-    font-size: 35px;
 }
 
 .bike_description {
-    font-size: 35px;
     }
 
-
-
-
-
-.arrow {
-    display: none;
-    border: solid black;
-    border-width: 0 0.5px 0.5px 0;
-    display: inline-block;
-    padding: 6px;
-
-}
-
-.right {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
 
     .page_body {
         width: 900px;

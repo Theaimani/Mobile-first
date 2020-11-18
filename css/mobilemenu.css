@@ -44,6 +44,10 @@
     text-align: left;
 }
 
+.active_menuitem {
+    color: grey
+}
+
 .menu_navigation {
     margin-left: 10%;
     font-weight: bold;

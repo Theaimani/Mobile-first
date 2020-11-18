@@ -11,13 +11,18 @@
 
 /* -------- Mobile first style and layout ---------- */
 
-.sustainability_text {
-    display: flex;
-    flex-direction: column;
+.sustainability_block {
+    padding: 30px 20px 0px 20px;;
 }
 
 .sustainability_heading {
     text-align: center;
+    padding-bottom: 5px;
+}
+
+.sustainability_paragraph {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .sustainability_image {
@@ -27,20 +32,17 @@
 
 .donate_button {
     border: 4px solid #705044;
-    margin-top: 10px;
-    padding: 12px 15px;
+    margin-top: 20px;
+    padding: 25px 25px 15px 25px;
     background-color: #705044;
     border-radius: 50px;
     color: white;
     letter-spacing: 1px;
 }
 
-.sustainability_text_intro {
+.sustainability_text {
+    margin: 0px 10px 30px 10px;
 
-}
-
-.sustainability_text_detail {
-    margin: 30px 0px 30px 0px;
 }
 
 /* ---------------------- Media Queries -------------------------- */
