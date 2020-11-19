@@ -11,6 +11,10 @@
 
 /*---------Gallery Section---------------------*/
 
+.navigation__container{
+    align-items: center
+}
+
 .gallery_block {
     padding: 30px 20px 0px 20px;;
 }
