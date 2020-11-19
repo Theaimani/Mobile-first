@@ -65,3 +65,13 @@
     }
 
     @media only screen and (min-width: 900px) {
+
+        .services_block {
+            margin-top: 20px;
+        }
+
+        .services_text {
+        margin: 40px 0px;
+    }
+
+        }

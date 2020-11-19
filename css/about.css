@@ -64,3 +64,12 @@
     }
 
     @media only screen and (min-width: 900px) {
+
+        .about_block {
+            margin-top: 20px;
+        }
+
+        .about_text {
+        margin: 40px 0px;
+    }
+}

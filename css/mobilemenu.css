@@ -16,7 +16,8 @@
     position: absolute;
     right: 5px;
     top: 10px;
-    width:
+
+    width: 100%;
     z-index: 9999;
 }
 
@@ -62,7 +63,7 @@
     padding-bottom: 25px;
 }
 
-.menu_sosbikelogo1{
+.menu_sosbikelogo1 {
     display: none;
 }
 
@@ -151,32 +152,32 @@
         display: none;
     }
 
-    .menu_paragraph{
+    .menu_paragraph {
         display: none;
     }
 
-    .sosbike_logo{
+    .sosbike_logo {
         display: none;
     }
 
-    .arrow{
+    .arrow {
         display: none;
     }
 
-    .right{
+    .right {
         display: none;
     }
 
-    .moab{
+    .moab {
         display: none;
     }
 
 
-    .cta_style{
+    .cta_style {
         display: none;
     }
 
-    .menu_sosbikelogo{
+    .menu_sosbikelogo {
         width: 8%;
         margin-left: 15px;
         margin-right: 15px;
@@ -184,32 +185,37 @@
 
     }
 
-    .menu_sosbikelogo1{
+    .menu_sosbikelogo1 {
         width: 8%;
-        margin-left: 15px;
-        margin-right: 15px;
+        /*   margin-left: 15px;
+        margin-right: 15px;*/
         display: block;
     }
 
-    .menu_heading{
+    .menu_heading {
         display: none;
     }
 
-    .menu_navigation{
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 20px;
-
-    }
-
-    .navigation__container{
-        width: 100%;
+    .menu_navigation {
+        display: flex;
         flex-direction: row;
-
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
 
     }
 
-    .gallery_heading{
+    .navigation__container {
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*  .gallery_heading{
         margin-top: 8%;
     }
 
@@ -227,7 +233,7 @@
 
     .contact_block{
         margin-top: 8%
-    }
+    }*/
 
 
 
@@ -237,17 +243,14 @@
     /* Make menuitems flex horisontally (on a row) */
     .menuitems__container {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         height: 70px;
-        background-color: rgba(211,211,211,0);
+        background-color: rgba(211, 211, 211, 0);
         padding-top: 20px;
-        margin-left: 65px;
         position: sticky;
         z-index: 9999;
         width: 900px;
-
-
     }
 
     .menuitem {

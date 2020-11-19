@@ -27,7 +27,8 @@ html {
 }
 
 .contact_block {
-    padding: 30px 20px 0px 20px;;
+    padding: 30px 20px 0px 20px;
+    ;
 }
 
 .contact_heading {
@@ -80,7 +81,7 @@ input[type=submit] {
 }*/
 
 .contact_form {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .contact_header {
@@ -99,17 +100,26 @@ margin-top: 20px;
 }
 
 
-/* -------- Footer section ---------- */
-
-
 @media only screen and (min-width: 600px) {
 
 
-        .contact_block {
-    padding: 30px 140px 0px 140px;
-}
+    .contact_block {
+        padding: 30px 140px 0px 140px;
+    }
 
     .contact_image {
         margin: 30px 0px;
     }
+
+}
+
+
+@media only screen and (min-width: 900px) {
+
+   contact_block {
+        margin-top: 20px;
+    }
+
+        }
+
 
