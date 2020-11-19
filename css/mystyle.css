@@ -173,17 +173,16 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin: 0px 20px 0px 20px;
 }
 
 .main_section2_card1 {
     display: flex;
     margin-top: 60px;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .main_section2_card1_inner {
-    margin-left: 15px;
     align-items: flex-end;
     width: 100px;
 }
@@ -216,8 +215,8 @@ a:hover {
 
 .main_section2_card2 {
     display: flex;
-    margin-top: 55px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     margin-right: 15px;
 }
 
@@ -419,119 +418,11 @@ a:hover {
     }
 
 
-
-
-
-
-
-
-
-
-/*
-
-.main_service_paragraph {
-    /*padding: 15px 25px 15px 0px;*/
-   /* margin: 5px 0px 10px 0px;
-}
-
-
-.main_s2_cta_button {
-    color: #DFD2C1;
-    background-color: #705044;
-    padding: 10px 25px;
-    border-radius: 20px;
-    letter-spacing: 1px;
-}
-
-
-
-.bike_service_image {
-    /*max-width: 150px;
-    /*padding: 10px 15px 10px 0px;*/
-   /* width: 156px;
-    margin: 0 0 0 45px;
-    height: 195px;
-}
-
-/*---card 2--*/
-
-/*
-
-.main_section1_header2 {
-    text-align: right;
-}
-
-.main_about_paragraph {
-    margin-top: 20px;
-    text-align: right;
-    margin: 10px 0px 5px 0px;*/
-}
-
-/*.main_quote {
-    text-align: right;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.main_s2_cta_button2 {
-    color: #DFD2C1;
-    background-color: #705044;
-    padding: 10px 26px;
-    border-radius: 20px;
-    margin-left: 6px;
-    letter-spacing: 1px;
-}
-
-
-
-.bike_about_image {
-    /*width: 70%;*/
-    /*padding: 10px 15px 10px 0px;*/
- /*   margin-left: 15px;
-    padding-bottom: 10px;
-    height: 185px;
-    width: 148px;
-
-
-}
-
-.bike_about_image2{
-    display: none;
-}
-
-.bike_about_image3{
-    display: none;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-    /*.main_section2_card1 {
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 55px;
-}*/
-
     .main_section2_card1 {
         display: flex;
         margin: 90px 0px 50px 0px;
 
     }
-
-
-   /*.main_section2_card1_inner {
-    margin-left: 15px;
-    align-items: flex-end;
-    width: 100px;
-}*/
 
 
     .main_section2_card1_inner {
@@ -577,23 +468,6 @@ a:hover {
     }
 
     /*---card 2--*/
-
-
-/*.main_section2_card2 {
-    display: flex;
-    margin-top: 55px;
-    margin-bottom: 60px;
-    margin-right: 15px;
-}
-
-.main_section2_card2_inner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 140px;
-    margin-left: 20px;
-
-}*/
 
 
     .main_section2_card2 {
@@ -666,7 +540,7 @@ a:hover {
 
 
     .footer_flex_inner_card {
-        padding: 30px 15px 15px 80px;
+        padding: 30px 15px 15px 40px;
         align-items: center;
         justify-content: center;
         width: 240px;
@@ -691,41 +565,22 @@ a:hover {
     }
 
 
-    /* ---------------------- Media Queries 900px -------------------------- */
 
-    @media only screen and (min-width: 900px) {
-
-
-        /* -------- Page body container ---------- */
+    /* ---------------------- Media Queries iPad -------------------------- */
 
 
-        .page_body {
-            width: 900px;
-            height: 29rem;
-        }
-
-        .moab { /* added by Morten, attached to menu arrows */
-    display: none;
-}
-
-
-        /* -------- Main content ---------- */
-
+    @media only screen and (min-width: 768px) {
         .main_section_bg_image {
             background-size: cover;
             background-position: bottom;
-            height: 900px;
+            height: 1030px;
             background-image: url("../images/homepage/main_bike.jpg");
         }
-
-
-
-        /*---------------MAIN PAGE SECTION 1----------------*/
 
         .main_section_flexbox {
             display: flex;
             flex-direction: column;
-            padding: 445px 15px 10px 15px;
+            padding: 675px 15px 10px 15px;
             width: 100%;
             align-items: center;
         }
@@ -784,16 +639,134 @@ a:hover {
         }
 
 
+        .page_footer {
+            height: 28rem;
+            padding: 80px;
+        }
+
+        .page_footer_card {
+            display: flex;
+            flex-direction: row;
+        }
+
+          .footer_flex_inner_card {
+        padding: 30px 15px 15px 60px;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+    }
+
+}
+
+    /* ---------------------- Media Queries 900px -------------------------- */
+
+    @media only screen and (min-width: 900px) {
+
+
+        /* -------- Page body container ---------- */
+
+
+        .page_body {
+            width: 900px;
+            height: 29rem;
+        }
+
+        .moab { /* added by Morten, attached to menu arrows */
+    display: none;
+}
+
+
+        /* -------- Main content ---------- */
+
+        .main_section_bg_image {
+            background-size: cover;
+            background-position: bottom;
+            height: 1370px;
+            background-image: url("../images/homepage/main_bike.jpg");
+        }
+
+
+
+        /*---------------MAIN PAGE SECTION 1----------------*/
+
+        .main_section_flexbox {
+            display: flex;
+            flex-direction: column;
+            padding: 1000px 15px 10px 15px;
+            width: 100%;
+            align-items: center;
+        }
+
+        .main_home_bike {
+            object-fit: cover;
+            width: 365px;
+            height: 610px;
+        }
+
+        .main_cta_button1 {
+            /* position: absolute;
+    top: 62.5%;
+    left: 8%;*/
+            border: 4px solid #705044;
+            padding: 20px 0px 10px 0px;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.01);
+            border-radius: 50px;
+            color: #705044;
+            font-size: 20px;
+            letter-spacing: 4px;
+            width: 400px;
+        }
+
+        .main_cta_button2 {
+            /*position: absolute;
+    top: 72.5%;
+    left: 8%;*/
+            border: 4px solid #705044;
+            padding: 20px 0px 10px 0px;
+        background-color: #705044;
+            border-radius: 50px;
+            color: white;
+            font-size: 18px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            width: 400px
+        }
+
+        .main_section1_text {
+            /* position: absolute;
+    top: 84%;*/
+            color: white;
+            text-align: center;
+            margin: 0px 12px;
+            line-height: 28px;
+            font-size: 25px;
+            letter-spacing: 1px;
+            padding-top: 10px;
+            width: 90%
+        }
+
+        .main_colorblock {
+            height: 50px;
+            width: 100%;
+            background-color: #705044;
+        }
+
+
        /*---------------MAIN PAGE SECTION 2----------------*/
 
     .main_section2_container {
         display: flex;
         flex-direction: column;
+        border: 4px solid #705044;
+        width: 900px;
+        padding-bottom: 20px;
+        margin: auto;
     }
 
     .main_section2_card1 {
         display: flex;
-        margin: 90px 40px 40px 40px;
+        margin: 90px 0px 50px 0px;
 
     }
 
@@ -829,7 +802,8 @@ a:hover {
 
     .bike_service_image {
         /*max-width: 150px;*/
-        height: 380px;
+        height: 300px;
+        width:  240px;
         margin: 0;
         /*padding: 10px 15px 10px 0px;*/
     }
@@ -838,7 +812,8 @@ a:hover {
 
     .main_section2_card2 {
         display: flex;
-        margin: 40px 40px 90px 40px;
+        margin: 50px 0px; 90px 0px;
+        width: 625px;
     }
 
     .main_section2_card2_inner {
@@ -846,7 +821,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-left: 70px;
+        margin-left: 165px;
     }
 
     .main_section1_header2 {
@@ -865,7 +840,7 @@ a:hover {
     .main_quote {
         text-align: right;
         font-size: 18px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .main_s2_cta_button2 {
@@ -881,36 +856,19 @@ a:hover {
 
 
     .bike_about_image {
-        /*max-width: 150px;*/
-        /*padding: 10px 15px 10px 0px;*/
-        display: none;
+        height: 300px;
+        width:  240px;
     }
 
-    .bike_about_image2{
-        display: none;
-    }
-        .bike_about_image3{
-        display: block;
-        height: 380px;
-        margin: 0;
-    }
 
 
         /* -------- Footer ---------- */
 
-        .page_footer {
-            height: 28rem;
-            padding: 60px;
-        }
 
-        .page_footer_card {
-            display: flex;
-            flex-direction: row;
-        }
 
 
         .footer_flex_inner_card {
-            padding: 15px 60px 15px 120px;
+            padding: 15px 60px 15px 100px;
             align-items: center;
             justify-content: center;
             width: 330px;
@@ -932,8 +890,8 @@ a:hover {
         .back_to_the_top {
             display: flex;
             flex-direction: column;
+            margin-top: 40px;
         }
-
 
 
     }

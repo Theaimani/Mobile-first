@@ -30,9 +30,8 @@
     margin: 10px 0px 10px 0px;
 }
 
-.about_text {
-    margin-bottom: 20px;
-    padding: 10px;
+.services_text {
+    margin: 20px;
 }
 
 .contact_button {
@@ -50,6 +49,19 @@
 
 @media only screen and (min-width: 600px) {
 
+    .services_block {
+    padding: 30px 140px;
+}
 
+    .services_image {
+        margin-top: 20px;
+    }
+.services_text {
+        margin: 40px 40px;
+    }
+
+    .contact_button {
+        margin-top: 40px;
+    }
 
     @media only screen and (min-width: 900px) {

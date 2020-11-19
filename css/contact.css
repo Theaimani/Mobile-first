@@ -22,6 +22,10 @@ html {
 
 /* -------- Mobile first style and layout ---------- */
 
+.contact_image {
+    width: 100%;
+}
+
 .contact_block {
     padding: 30px 20px 0px 20px;;
 }
@@ -76,7 +80,7 @@ input[type=submit] {
 }*/
 
 .contact_form {
-
+margin-top: 20px;
 }
 
 .contact_header {
@@ -96,4 +100,16 @@ input[type=submit] {
 
 
 /* -------- Footer section ---------- */
+
+
+@media only screen and (min-width: 600px) {
+
+
+        .contact_block {
+    padding: 30px 140px 0px 140px;
+}
+
+    .contact_image {
+        margin: 30px 0px;
+    }
 
