@@ -248,7 +248,12 @@
         height: 70px;
         background-color: rgba(211, 211, 211, 0);
         padding-top: 20px;
+<<<<<<< HEAD
         position: sticky;
+=======
+        margin-left: 65px;
+        position: fixed;
+>>>>>>> origin/main
         z-index: 9999;
         width: 900px;
     }
