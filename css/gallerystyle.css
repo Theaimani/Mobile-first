@@ -118,14 +118,6 @@
 }
 
 
-
-
-.why_vintage_block {
-    margin: 2%;
-
-
-}
-
 .gallery_heading {
     text-align: center;
     padding-bottom: 10px;
@@ -228,9 +220,10 @@
 @media only screen and (min-width: 900px) {
 
 
-.gallery_block {
-    margin: 2%;
-}
+    .bicycle_gallery_container {
+        margin-top: 60px;
+    }
+
 
 .gallery_heading {
     text-align: center;

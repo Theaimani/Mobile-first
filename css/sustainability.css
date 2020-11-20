@@ -65,8 +65,8 @@
 @media only screen and (min-width: 900px) {
 
 
-    sustainability_block {
-        margin-top: 20px;
+    .sustainability_block {
+        margin-top: 60px;
     }
 
     .sustainability_text {

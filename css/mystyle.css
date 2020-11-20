@@ -683,7 +683,7 @@ a:hover {
             background-size: cover;
             background-position: bottom;
             /*height: 1370px;*/
-            height: 590px;
+            height: 610px;
             background-image: url("../images/homepage/beeline-navigation-nfWllIa5wew-unsplash-7.jpg");
         }
 
@@ -694,7 +694,7 @@ a:hover {
         .main_section_flexbox {
             display: flex;
             flex-direction: column;
-            padding: 350px 15px 10px 15px;
+            padding: 355px 15px 10px 15px;
             width: 100%;
             align-items: center;
             justify-content: center;
@@ -716,7 +716,7 @@ a:hover {
             background-color: rgba(255, 255, 255, 0.01);
             border-radius: 50px;
             color: #705044;
-         /*   font-size: 20px;*/
+            /*font-size: 20px;*/
             letter-spacing: 4px;
             width: 400px;
         }
@@ -731,7 +731,7 @@ a:hover {
             border-radius: 50px;
             color: white;
           /*  font-size: 18px;*/
-            letter-spacing: 2px;
+            letter-spacing: 4px;
             margin-bottom: 10px;
             width: 400px
         }

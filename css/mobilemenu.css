@@ -12,11 +12,11 @@
     float: right;
 } */
 
+
 .navigation__container {
     position: absolute;
     right: 5px;
     top: 10px;
-
     width: 100%;
     z-index: 9999;
 }
@@ -142,9 +142,11 @@
 
 
 
-/* Add rules [ON WIDE SCREENS] */
+/* ------------Add rules [ON WIDE SCREENS]---------------------- */
+
 
 @media only screen and (min-width: 900px) {
+
 
     /* Hide Mobile icon and its label */
     .mobileiconlabel,
@@ -178,9 +180,9 @@
     }
 
     .menu_sosbikelogo {
-        width: 8%;
+        /*width: 8%;
         margin-left: 15px;
-        margin-right: 15px;
+        margin-right: 15px;*/
         display: none;
 
     }
@@ -196,18 +198,26 @@
         display: none;
     }
 
+
     .menu_navigation {
-        display: flex;
+        margin-left: 0%;
+        /*display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 18px;
-
+        font-size: 18px;*/
     }
 
+
     .navigation__container {
+        /*display: none;*/
+        right: auto;
+    }
+
+
+    .navigation__container_wide {
         width: 900px;
         display: flex;
         flex-direction: row;
@@ -215,47 +225,14 @@
         align-items: center;
     }
 
-    /*  .gallery_heading{
-        margin-top: 8%;
-    }
 
-    .sustainability_block{
-        margin-top: 8%;
-    }
-
-    .services_block{
-        margin-top: 8%;
-    }
-
-    .about_block{
-        margin-top: 8%;
-    }
-
-    .contact_block{
-        margin-top: 8%
-    }*/
-
-
-
-
-
-
-    /* Make menuitems flex horisontally (on a row) */
     .menuitems__container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 70px;
         background-color: rgba(211, 211, 211, 0);
-        padding-top: 20px;
-<<<<<<< HEAD
-        position: sticky;
-=======
-        margin-left: 65px;
-        position: fixed;
->>>>>>> origin/main
-        z-index: 9999;
-        width: 900px;
+        padding-top: 0px;
     }
 
     .menuitem {
@@ -269,3 +246,5 @@
     .right {
         display: none;
     }
+
+}
