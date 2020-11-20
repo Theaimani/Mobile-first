@@ -125,12 +125,12 @@ a:hover {
     top: 62.5%;
     left: 8%;*/
     border: 4px solid #705044;
-    padding: 15px 75px 5px 75px;
+    padding: 15px 45px 5px 45px;
     margin: 10px 0px;
     background-color: rgba(255, 255, 255, 0.01);
     border-radius: 50px;
     color: #333333;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-decoration: none;
 }
 
@@ -139,11 +139,11 @@ a:hover {
     top: 72.5%;
     left: 8%;*/
     border: 4px solid #705044;
-    padding: 15px 35px 5px 35px;
+    padding: 15px 25px 5px 25px;
     background-color: #705044;
     border-radius: 50px;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 
 }
 
@@ -565,7 +565,7 @@ a:hover {
         text-align: center;
     }
 
-
+ }
 
     /* ---------------------- Media Queries iPad -------------------------- */
 
@@ -598,6 +598,7 @@ a:hover {
     left: 8%;*/
             border: 4px solid #705044;
             padding: 8px 130px;
+            padding-top: 15px;
             margin-bottom: 20px;
             background-color: rgba(255, 255, 255, 0.01);
             border-radius: 50px;
@@ -611,7 +612,8 @@ a:hover {
     top: 72.5%;
     left: 8%;*/
             border: 4px solid #705044;
-            padding: 10px 50px;
+            padding: 10px 110px;
+            padding-top: 15px;
             background-color: #705044;
             border-radius: 50px;
             color: white;
